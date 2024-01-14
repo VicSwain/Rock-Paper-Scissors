@@ -6,11 +6,12 @@ function playGame() {
     var moves = 0;
     var compChoice = Math.floor(Math.random() *= choices.length);
 
-
 if (userInput === compChoice ){
     alert("It's a tie");
-}
+
 if (userInput === 'R' && compChoice === 'S' || userInput === 'P', && compChoice === 'R', || userInput === 'S', && compChoice === 'P') {
+=======
+if (userInput = 'R' && compChoice = 'S' || userInput = 'P' && compChoice = 'R' || userInput = 'S' && compChoice = 'P') {
     alert ("You Win!")
     ++playerScore;  
 }
